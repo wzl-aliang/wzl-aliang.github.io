@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="css,div,jquery,html,c,seo,web" />
+<meta name="abstract" content="html布局常用标签,xhtml布局心得,jquery技巧,div" />
+<meta name="author" content="Zhang Jie" />
+<meta name="generator" content="FrontPage" />
+<meta name="robots" content="all" />
+<title>联系我</title>
+<script type="text/javascript" language="javascript" src="javascript/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" language="javascript" src="javascript/thickbox.js"></script>
+<link rel="stylesheet"  type="text/css" href="stylesheets/reset.css" />
+<link rel="stylesheet"  type="text/css" href="stylesheets/index.css" />
+<link rel="stylesheet"  type="text/css" href="stylesheets/thickbox.css" />
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".footer_logo").click(function(){
+		$("html,body").animate({
+			scrollTop:0
+		},900);
+	});	
+});
+</script>
+
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div class="header_l">
+            <h1>计算导论冲浪<span>div css jquery seo 计算导论</span></h1>
+            <h2>design by 王子良 &nbsp;&nbsp;&nbsp;&nbsp;(北京大学)<span>css html jquery seo php</span></h2>
+            <ul>
+               <li><a href="index.html" title="个人主页" class="li_first">个人主页</a></li>
+                <li><a href="photo.html" title="我的相册">我的相册</a></li>
+                <li><a href="view.html" title="世界观">世界观</a></li>
+                <li><a href="relaxation.html" title="兴趣空间">兴趣爱好</a></li>
+                <li><a href="contact.html" target="_blank" title="给我留言">给我留言</a></li>
+            </ul>                               
+        </div>
+        <!--header_l end-->
+        <div class="header_r">
+        	<div class="join">
+            	<ul>
+                	<li class="home"></li>
+                    <li><a href="index.html" title="返回首页">返回首页</a></li>
+                	<li class="website"></li>
+                    <li><a href="mailto:1732631335@qq.com" target="_blank" title="联系我">联系我</a></li>
+				</ul>
+               
+                <div class="search">
+                <form>
+               		 <input type="text" />&nbsp;
+                     <input type="button" value=" 站内搜索 "  onclick="javascript:alert('大家好，我是阿良！');" />
+                </form>             
+                </div>
+                
+            </div>
+            <!--join end-->
+        </div>
+        <!--header_r end-->
+        <div class="c"></div>
+    </div>
+    <!--header end-->
+    <div id="main">
+    	<div class="main_top"></div>
+        <div class="contact_main_bg" >
+        <br /><br /><br /><br />
+        <div style=" margin-left:100px;">
+        	<form>
+            
+            <table>
+                <tr>
+                    <td>&nbsp;
+                        </td>
+                    <td>
+                        你的Email:</td>
+                    <td>
+                        <input id="Text1" type="text" style="width:200px;" /></td>
+                    <td>&nbsp;
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img alt="" src="images/info.png" /></td>
+                    <td>
+                        你的留言：</td>
+                    <td>
+            
+            <textarea id="TextArea1" cols="80" name="S1" rows="10"></textarea></td>
+                    <td>&nbsp;
+                        </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;
+                        </td>
+                    <td>
+                        验证码：</td>
+                    <td>
+            
+                         <input id="Text2" type="text" />&nbsp;&nbsp;<img src="images/checkcode.gif" alt="请输入验证码！"/></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;
+                        </td>
+                    <td>
+                        <input id="btnMes" type="button" value="留言" style="width:80px; height:30px;" onclick="javascript:alert('留言成功！');"  /></td>
+                    <td>&nbsp;
+                        </td>
+                </tr>
+            </table>
+            </form>
+			</div>
+        </div>
+        
+        <div class="main_bot"></div>
+    </div>
+    <!--main end-->
+    <div id="footer">
+        <p>Copyright 2021 HTML5 | CSS | jquery<br />Design by 王子良(北京大学) for <a href="#" title="www.pku.edu.cn">https://www.pku.edu.cn/</a></p>
+        <div class="footer_logo" title="帮您返回页面顶部"></div>
+    </div>
+</div>
+<!--wrapper end-->
+</body>
+</html>
